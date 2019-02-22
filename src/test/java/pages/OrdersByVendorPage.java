@@ -11,7 +11,7 @@ public class OrdersByVendorPage {
     }
 
 
-    @FindBy(xpath = "//*[@class = 'o_group_name']")
+    @FindBy(xpath = "//th[@class = 'o_group_name']/span")
     public WebElement firstVendor;
 
     @FindBy (xpath = "//*[.= 'January 2019 (2)']")
