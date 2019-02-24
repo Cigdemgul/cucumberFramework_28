@@ -78,6 +78,7 @@ public class ProductsStepDefinitions {
             e.printStackTrace();
         }
         String finalPageLimit = Driver.getDriver().findElement(By.className("o_pager_limit")).getText();
+
         Assert.assertNotEquals(finalPageLimit, initPageLimit);
     }
 
