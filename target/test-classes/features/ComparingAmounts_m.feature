@@ -1,6 +1,5 @@
 Feature: The application should add the total amounts correctly
 
-#    @wip
   Scenario: add the amounts
     Given I am on the lunch page as a manager
     Then I go to Control Accounts page as a manager
