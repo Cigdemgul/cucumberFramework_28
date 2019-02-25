@@ -12,7 +12,7 @@ import utilities.Driver;
 
 import static org.junit.Assert.*;
 
-public class OrdersByVendor_StepDefinitions {
+public class OrdersByVendor_StepDefinitions_BRIT_4259 {
 
     OrdersByVendorPage ordersByVendorPage = new OrdersByVendorPage();
     MainPage mainPage = new MainPage();

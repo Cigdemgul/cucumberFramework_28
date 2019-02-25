@@ -7,7 +7,7 @@ import utilities.Driver;
 
 import static org.junit.Assert.*;
 
-public class TodaysOrderStep_Definitions {
+public class TodaysOrderStep_Definitions_BRIT_4004 {
     LunchHomePage lunchHomePage = new LunchHomePage();
 
     @When("manager clicks the Today's Orders Button on Lunch Home Page")
