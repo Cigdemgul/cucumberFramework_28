@@ -20,10 +20,10 @@ public class OrdersByVendorPage {
     @FindBy(xpath = "//tr//td[2]//div//input")
     public WebElement firstCheckbox;
 
-    @FindBy(xpath = "//a[@data-section = 'print']")
+    @FindBy(css = "body > div.o_main > div.o_main_content > div.o_control_panel > div.o_cp_left > div.o_cp_sidebar > div > div:nth-child(1) > button")
     public WebElement printButton;
 
-    @FindBy (xpath = "//a[@data-index ='0' and @data-section='print']")
+    @FindBy (css = "body > div.o_main > div.o_main_content > div.o_control_panel > div.o_cp_left > div.o_cp_sidebar > div > div.btn-group.o_dropdown.open > ul > li > a")
     public WebElement lunchOrderButton;
 
     @FindBy (xpath = "//div[@class = 'o_list_buttons']")

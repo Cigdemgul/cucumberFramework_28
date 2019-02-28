@@ -1,5 +1,5 @@
 
-@wip
+
 Feature: Orders by Vendor page, print,export, delete, order, receive, cancel the selected option.
   Scenario: : Displaying print and action buttons
   Given user is at the lunch home page
