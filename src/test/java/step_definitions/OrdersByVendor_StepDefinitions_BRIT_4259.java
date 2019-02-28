@@ -50,7 +50,7 @@ public class OrdersByVendor_StepDefinitions_BRIT_4259 {
 
     @Then("user should be able to see the print and action buttons")
     public void user_should_be_able_to_see_the_print_and_action_buttons() {
-        assertTrue(ordersByVendorPage.printButton.isDisplayed());
+        assertTrue(ordersByVendorPage.printAndActionButtons.isDisplayed());
 
 
 

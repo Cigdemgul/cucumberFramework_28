@@ -14,16 +14,19 @@ public class OrdersByVendorPage {
     @FindBy(xpath = "//th[@class = 'o_group_name']/span")
     public WebElement firstVendor;
 
-    @FindBy (xpath = "//*[.= 'January 2019 (2)']")
+    @FindBy (xpath = "//th[text()='December 2018 (2)']")
     public WebElement firstVendorDate;
 
-    @FindBy(xpath = "//*[.= '01/21/2019']")
+    @FindBy(xpath = "//tr//td[2]//div//input")
     public WebElement firstCheckbox;
 
-    @FindBy(xpath = "//div/button[@class= 'o_dropdown_toggler_btn btn btn-sm dropdown-toggle']")
+    @FindBy(xpath = "//a[@data-section = 'print']")
     public WebElement printButton;
 
-    @FindBy (xpath = "//div//ul/li/a[@data-index= '0']")
+    @FindBy (xpath = "//a[@data-index ='0' and @data-section='print']")
     public WebElement lunchOrderButton;
+
+    @FindBy (xpath = "//div[@class = 'o_list_buttons']")
+    public WebElement printAndActionButtons;
 
 }
