@@ -19,8 +19,8 @@
     <session id="-378633188">
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Cucumber" value="12" />
-          <entry key="JAVA" value="9" />
+          <entry key="Cucumber" value="30" />
+          <entry key="JAVA" value="10" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -35,11 +35,12 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -52,8 +53,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/runners/CukesRunner.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="330">
               <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+=======
+            <state relative-caret-position="150">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+>>>>>>> master
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,11 +105,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/TodaysOrder_BRIT_4004.feature">
+=======
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/ProductCategories.feature">
+>>>>>>> master
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+=======
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Products.feature">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/TodaysOrder_BRIT_4004.feature">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+>>>>>>> master
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/Upload_m.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -130,6 +153,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -147,7 +175,6 @@
         <option value="$PROJECT_DIR$/src/test/resources/features/Lunch.feature" />
         <option value="$PROJECT_DIR$/src/test/java/step_definitions/LunchStep_Definitions.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/step_definitions/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/step_definitions/LoginStep_Definitions.java" />
         <option value="$PROJECT_DIR$/src/test/java/step_definitions/LunchHomeStep_Definitions.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/LunchHome.feature" />
@@ -177,6 +204,17 @@
         <option value="$PROJECT_DIR$/src/test/java/pages/OrdersByVendorPage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/OrdersByVendor_BRIT_4338.feature" />
         <option value="$PROJECT_DIR$/src/test/java/step_definitions/OrdersByVendor_StepDefinitions_BRIT_4338.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/ProductsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/step_definitions/Hooks.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Products.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/ProductCategoriesPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/step_definitions/ProductCategoriesStep_Defs.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/ProductCategories.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/step_definitions/ProductsStepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/EmployeePayments.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/runners/CukesRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/step_definitions/EmployeePayments_StepDefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/EmployeePaymentsPage.java" />
       </list>
     </option>
   </component>
@@ -207,6 +245,221 @@
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="828" />
+    <component name="ProjectFrameBounds" extendedState="6">
+      <option name="x" value="930" />
+      <option name="width" value="995" />
+      <option name="height" value="1040" />
+      &gt;&gt;&gt;&gt;&gt;&gt;&gt; c58e78459f1e5b6c1c6873e2c59d271b32f725bf
+    </component>
+    <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+    <component name="ProjectView">
+      <navigator proportions="" version="1">
+        <foldersAlwaysOnTop value="true" />
+      </navigator>
+      <panes>
+        <pane id="PackagesPane">
+          <subPane>
+            <expand>
+              <path>
+                <item name="cucumberFramework_28" type="58d84e3e:PackageViewProjectNode" />
+                <item name="cucumberFramework_28" type="616d4139:PackageViewModuleNode" />
+              </path>
+              <path>
+                <item name="cucumberFramework_28" type="58d84e3e:PackageViewProjectNode" />
+                <item name="cucumberFramework_28" type="616d4139:PackageViewModuleNode" />
+                <item name="features" type="1f31426a:PackageElementNode" />
+              </path>
+              <path>
+                <item name="cucumberFramework_28" type="58d84e3e:PackageViewProjectNode" />
+                <item name="cucumberFramework_28" type="616d4139:PackageViewModuleNode" />
+                <item name="pages" type="1f31426a:PackageElementNode" />
+              </path>
+              <path>
+                <item name="cucumberFramework_28" type="58d84e3e:PackageViewProjectNode" />
+                <item name="cucumberFramework_28" type="616d4139:PackageViewModuleNode" />
+                <item name="runners" type="1f31426a:PackageElementNode" />
+              </path>
+              <path>
+                <item name="cucumberFramework_28" type="58d84e3e:PackageViewProjectNode" />
+                <item name="cucumberFramework_28" type="616d4139:PackageViewModuleNode" />
+                <item name="step_definitions" type="1f31426a:PackageElementNode" />
+              </path>
+            </expand>
+            <select />
+          </subPane>
+        </pane>
+        <pane id="Scope" />
+        <pane id="ProjectPane">
+          <subPane>
+            <expand>
+              <path>
+                <item name="cucumberFramework_28" type="b2602c69:ProjectViewProjectNode" />
+                <item name="cucumberFramework_28" type="462c0819:PsiDirectoryNode" />
+              </path>
+              <path>
+                <item name="cucumberFramework_28" type="b2602c69:ProjectViewProjectNode" />
+                <item name="cucumberFramework_28" type="462c0819:PsiDirectoryNode" />
+                <item name="src" type="462c0819:PsiDirectoryNode" />
+              </path>
+              <path>
+                <item name="cucumberFramework_28" type="b2602c69:ProjectViewProjectNode" />
+                <item name="cucumberFramework_28" type="462c0819:PsiDirectoryNode" />
+                <item name="src" type="462c0819:PsiDirectoryNode" />
+                <item name="test" type="462c0819:PsiDirectoryNode" />
+              </path>
+              <path>
+                <item name="cucumberFramework_28" type="b2602c69:ProjectViewProjectNode" />
+                <item name="cucumberFramework_28" type="462c0819:PsiDirectoryNode" />
+                <item name="src" type="462c0819:PsiDirectoryNode" />
+                <item name="test" type="462c0819:PsiDirectoryNode" />
+                <item name="java" type="462c0819:PsiDirectoryNode" />
+              </path>
+              <path>
+                <item name="cucumberFramework_28" type="b2602c69:ProjectViewProjectNode" />
+                <item name="cucumberFramework_28" type="462c0819:PsiDirectoryNode" />
+                <item name="src" type="462c0819:PsiDirectoryNode" />
+                <item name="test" type="462c0819:PsiDirectoryNode" />
+                <item name="java" type="462c0819:PsiDirectoryNode" />
+                <item name="pages" type="462c0819:PsiDirectoryNode" />
+              </path>
+              <path>
+                <item name="cucumberFramework_28" type="b2602c69:ProjectViewProjectNode" />
+                <item name="cucumberFramework_28" type="462c0819:PsiDirectoryNode" />
+                <item name="src" type="462c0819:PsiDirectoryNode" />
+                <item name="test" type="462c0819:PsiDirectoryNode" />
+                <item name="java" type="462c0819:PsiDirectoryNode" />
+                <item name="runners" type="462c0819:PsiDirectoryNode" />
+              </path>
+              <path>
+                <item name="cucumberFramework_28" type="b2602c69:ProjectViewProjectNode" />
+                <item name="cucumberFramework_28" type="462c0819:PsiDirectoryNode" />
+                <item name="src" type="462c0819:PsiDirectoryNode" />
+                <item name="test" type="462c0819:PsiDirectoryNode" />
+                <item name="java" type="462c0819:PsiDirectoryNode" />
+                <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
+              </path>
+              <path>
+                <item name="cucumberFramework_28" type="b2602c69:ProjectViewProjectNode" />
+                <item name="cucumberFramework_28" type="462c0819:PsiDirectoryNode" />
+                <item name="src" type="462c0819:PsiDirectoryNode" />
+                <item name="test" type="462c0819:PsiDirectoryNode" />
+                <item name="java" type="462c0819:PsiDirectoryNode" />
+                <item name="utilities" type="462c0819:PsiDirectoryNode" />
+              </path>
+              <path>
+                <item name="cucumberFramework_28" type="b2602c69:ProjectViewProjectNode" />
+                <item name="cucumberFramework_28" type="462c0819:PsiDirectoryNode" />
+                <item name="src" type="462c0819:PsiDirectoryNode" />
+                <item name="test" type="462c0819:PsiDirectoryNode" />
+                <item name="resources" type="462c0819:PsiDirectoryNode" />
+              </path>
+              <path>
+                <item name="cucumberFramework_28" type="b2602c69:ProjectViewProjectNode" />
+                <item name="cucumberFramework_28" type="462c0819:PsiDirectoryNode" />
+                <item name="src" type="462c0819:PsiDirectoryNode" />
+                <item name="test" type="462c0819:PsiDirectoryNode" />
+                <item name="resources" type="462c0819:PsiDirectoryNode" />
+                <item name="features" type="462c0819:PsiDirectoryNode" />
+              </path>
+            </expand>
+            <select />
+          </subPane>
+        </pane>
+        <pane id="Scope">
+          <subPane subId="Scope 'Default Changelist'; set:Default Changelist; class com.intellij.packageDependencies.ChangeListScope">
+            <expand>
+              <path>
+                <item name="cucumberFramework_28" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+                <item name="cucumberFramework_28" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              </path>
+              <path>
+                <item name="cucumberFramework_28" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+                <item name="cucumberFramework_28" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+                <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              </path>
+              <path>
+                <item name="cucumberFramework_28" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+                <item name="cucumberFramework_28" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+                <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              </path>
+              <path>
+                <item name="cucumberFramework_28" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+                <item name="cucumberFramework_28" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+                <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              </path>
+              <path>
+                <item name="cucumberFramework_28" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+                <item name="cucumberFramework_28" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+                <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                <item name="pages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              </path>
+              <path>
+                <item name="cucumberFramework_28" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+                <item name="cucumberFramework_28" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+                <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                <item name="runners" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              </path>
+            </expand>
+            <select />
+          </subPane>
+          <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
+            <expand>
+              <path>
+                <item name="cucumberFramework_28" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+                <item name="cucumberFramework_28" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              </path>
+              <path>
+                <item name="cucumberFramework_28" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+                <item name="cucumberFramework_28" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+                <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              </path>
+              <path>
+                <item name="cucumberFramework_28" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+                <item name="cucumberFramework_28" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+                <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              </path>
+              <path>
+                <item name="cucumberFramework_28" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+                <item name="cucumberFramework_28" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+                <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              </path>
+              <path>
+                <item name="cucumberFramework_28" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+                <item name="cucumberFramework_28" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+                <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                <item name="pages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              </path>
+              <path>
+                <item name="cucumberFramework_28" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+                <item name="cucumberFramework_28" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+                <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                <item name="runners" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              </path>
+            </expand>
+            <select />
+          </subPane>
+        </pane>
+      </panes>
+    </component>
+    <component name="PropertiesComponent">
+      <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551337875664" />
+      <property name="settings.editor.selected.configurable" value="vcs.Git" />
+      <pane id="PackagesPane" />
+    </component>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -412,13 +665,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551375536557" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551375239709" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+>>>>>>> master
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/pages" />
-      <recent name="$PROJECT_DIR$/src/test" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/features" />
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="utilities" />
@@ -426,9 +684,9 @@
       <recent name="step_definitions" />
       <recent name="runners" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources/features" />
-      <recent name="$PROJECT_DIR$" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/pages" />
+      <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -494,15 +752,24 @@
       <option name="presentableId" value="Default" />
       <updated>1549939480228</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added 6 new cucumber tests&#10;-3 for products&#10;-3 for product categories">
+      <created>1550986284909</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550986284909</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added 6 new cucumber tests&#10;-3 for products&#10;-3 for product categories">
+      <created>1550986294131</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550986294131</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CukesRunner_(1) - 2019.02.27 at 23h 06m 40s.xml">
-      <configuration name="CukesRunner (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CukesRunner_(1) - 2019.02.27 at 23h 08m 16s.xml">
-      <configuration name="CukesRunner (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CukesRunner_(1) - 2019.02.27 at 23h 10m 47s.xml">
       <configuration name="CukesRunner (1)" configurationId="JUnit" />
     </history-entry>
@@ -524,7 +791,11 @@
     <history-entry file="CukesRunner_(1) - 2019.02.28 at 00h 56m 32s.xml">
       <configuration name="CukesRunner (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CukesRunner_(1) - 2019.02.28 at 00h 59m 25s.xml">
+    <history-entry file="CukesRunner_(1) - 2019.02.28 at 00h 59m 25s.xml" />
+    <history-entry file="CukesRunner_(1) - 2019.02.28 at 11h 28m 43s.xml">
+      <configuration name="CukesRunner (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CukesRunner_(1) - 2019.02.28 at 11h 31m 20s.xml">
       <configuration name="CukesRunner (1)" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -537,15 +808,22 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5050505" side_tool="true" weight="0.3090129" />
       <window_info id="Image Layers" order="4" />
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4949495" visible="true" weight="0.3304721" />
       <window_info id="Structure" order="6" sideWeight="0.5050505" side_tool="true" weight="0.3090129" />
       <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49928468" visible="true" weight="0.32608697" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5007153" side_tool="true" weight="0.3256445" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.3304721" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3266399" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+>>>>>>> master
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32797858" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3152174" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.31586403" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39892906" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -567,15 +845,15 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5050505" side_tool="true" weight="0.3090129" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4949495" visible="true" weight="0.32618025" />
-      <window_info id="Structure" order="6" sideWeight="0.5050505" side_tool="true" weight="0.3090129" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49928468" weight="0.32336956" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5007153" side_tool="true" weight="0.3256445" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.14697987" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3266399" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32797858" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3152174" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.31586403" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39892906" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -596,6 +874,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/HomePageStepDefinitions.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/homepage.feature" />
     <entry file="file://$PROJECT_DIR$/cucumberFramework_28.iml">
@@ -758,42 +1037,62 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/PreviousOrders_mStepDefinitions.java">
+=======
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+>>>>>>> master
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="70" column="54" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
-        </state>
+        <state relative-caret-position="-501" />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/TodaysOrder_BRIT_4004.feature">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/OpenNewAccount_m.feature">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/ComparingAmounts_m.feature">
+=======
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="51" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="51" />
+        <state relative-caret-position="581">
+          <caret line="1376" column="14" selection-start-line="1376" selection-start-column="14" selection-end-line="1376" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/OrdersByVendor_StepDefinitions_BRIT_4259.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+        <state relative-caret-position="180">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+>>>>>>> master
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/OrdersByVendor_StepDefinitions_BRIT_4338.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configuration.properties">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/OrdersByVendorPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="300">
+          <caret line="25" column="167" selection-start-line="25" selection-start-column="167" selection-end-line="25" selection-end-column="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/LoginStep_Definitions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="975">
           <caret line="67" column="38" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -807,12 +1106,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/alert_m.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/ComparingAmounts_m.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/EmployeePayments.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/LunchHome.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/OpenNewAccount_m.feature">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/OrdersByVendor_BRIT_4259.feature">
       <provider selected="true" editor-type-id="text-editor">
@@ -821,76 +1139,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runners/CukesRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/OrdersByVendor_BRIT_4338.feature">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="330">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/OrdersByVendorPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="25" column="167" selection-start-line="25" selection-start-column="167" selection-end-line="25" selection-end-column="167" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/OrdersByVendor_StepDefinitions_BRIT_4259.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/OrdersByVendor_BRIT_4338.feature">
-      <provider selected="true" editor-type-id="text-editor">
+=======
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
+>>>>>>> master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/OrdersByVendor_StepDefinitions_BRIT_4338.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/PreviousOrders_m.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/ProductCategories.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Products.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/TodaysOrder_BRIT_4004.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Upload_m.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+<<<<<<< HEAD
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+=======
+        <state relative-caret-position="105">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+>>>>>>> master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runners/CukesRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

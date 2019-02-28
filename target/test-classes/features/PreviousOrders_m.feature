@@ -8,10 +8,9 @@ Feature: User should delete/export previous orders and see order prices
     Then I should be able to see "Delete"
 
 
-@wip
+
   Scenario: export files
     Given I am on the lunch page as a manager
-#    Then I go to Control Accounts page as a manager
     Then I go to invoicing manager
     When I select an order
     Then I click on action button

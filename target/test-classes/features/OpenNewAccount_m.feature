@@ -27,5 +27,3 @@ Feature: The user should open new account
     When I go to Create New Account Section
     Then I enter information
     Then I save
-#    Then I get the amount of account
-#    Then Amounts should be the same
