@@ -22,7 +22,7 @@ public class Alert_mStepDefinitions {
         LoginPage loginPage = new LoginPage();
         LunchHomePage lunchHomePage = new LunchHomePage();
         Driver.getDriver().get(ConfigurationReader.getProperty("url"));
-        mainPage.briteErpDemoButton.click();
+        //mainPage.briteErpDemoButton.click();
         loginPage.emailInput.sendKeys(ConfigurationReader.getProperty("mailManager"));
         loginPage.passwordInput.sendKeys(ConfigurationReader.getProperty("passwordManager"));
         loginPage.loginButton.click();

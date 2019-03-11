@@ -5,13 +5,20 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 import pages.ControlAccountsPage;
 import pages.LunchHomePage;
+import utilities.DBUtils;
+
+import java.text.DateFormat;
+import java.util.List;
+import java.util.Map;
+
+import static org.junit.Assert.assertEquals;
 
 public class ControllingAccounts_mStepDefinitions {
     ControlAccountsPage controlAccountsPage = new ControlAccountsPage();
 
     int a=0;
     int b =0;
-    String amount =null;
+    String amount ="46.00";
 
     @Then("I go to Control Accounts page as a manager")
     public void i_go_to_Control_Accounts_page_as_a_manager() throws InterruptedException {
@@ -27,7 +34,7 @@ public class ControllingAccounts_mStepDefinitions {
         String totalAmount1 = controlAccountsPage.totalAmount.getText();
         String str = totalAmount1.replaceFirst(",", "");
         Double totalAmount = Double.parseDouble(str);
-        Assert.assertEquals(amount, totalAmount);
+        assertEquals(amount, totalAmount);
     }
 
     @When("I go to Create New Account Section")
@@ -44,11 +51,22 @@ public class ControllingAccounts_mStepDefinitions {
         Thread.sleep(2000);
         controlAccountsPage.selectingUser();
         controlAccountsPage.selectingDate();
-        controlAccountsPage.setCreateNewAccount("43.99", "New account opened");
+        controlAccountsPage.setCreateNewAccount("46.00", "New account opened");
 
 
     }
 
+    @Then("I enter information of new account")
+    public void i_enter_information_of_new_account() throws InterruptedException {
+        ControlAccountsPage controlAccountsPage = new ControlAccountsPage();
+        controlAccountsPage.getUsers.click();
+        Thread.sleep(2000);
+        controlAccountsPage.selectingUser();
+        controlAccountsPage.selectingDate();
+        controlAccountsPage.setCreateNewAccount("46.00", "New account opened");
+
+
+    }
     @Then("I save")
     public void i_save() {
         ControlAccountsPage controlAccountsPage = new ControlAccountsPage();
@@ -60,7 +78,7 @@ public class ControllingAccounts_mStepDefinitions {
     public void the_amounts_should_be_the_same() throws InterruptedException {
         ControlAccountsPage controlAccountsPage = new ControlAccountsPage();
         Thread.sleep(2000);
-        Assert.assertEquals("43.99", controlAccountsPage.amount1.getText());
+        assertEquals("46.00", controlAccountsPage.amount1.getText());
 
     }
 
@@ -71,7 +89,7 @@ public class ControllingAccounts_mStepDefinitions {
         ControlAccountsPage controlAccountsPage = new ControlAccountsPage();
 
          b = controlAccountsPage.findAddedAccount();
-        Assert.assertEquals(b-a,1);
+        assertEquals(b-a,1);
     }
 
 
@@ -97,6 +115,55 @@ public class ControllingAccounts_mStepDefinitions {
 
     }
 
+    @Then("the amount should be the same as database records")
+    public void the_amount_should_be_the_same_as_database_records() throws InterruptedException {
+        ControlAccountsPage controlAccountsPage= new ControlAccountsPage();
+        String sql ="select amount from lunch_cashmove where id=(select max(id) from lunch_cashmove)";
+        Thread.sleep(2000);
+        System.out.println(controlAccountsPage.amount1.getText());
+        List<String> abc=DBUtils.executeQueryAndGetColumnValue(sql,"amount");
+        //System.out.println("value:"+Double.parseDouble(abc.get(0)));
+       //assertEquals(amount,abc.get(0));
+        Double expected=Double.parseDouble(abc.get(0));
+        Double actual=Double.parseDouble(controlAccountsPage.amount1.getText());
+
+        assertEquals(expected,actual);
 
     }
+
+
+    @Then("number of accounts should be the same as database records")
+    public void number_of_accounts_should_be_the_same_as_database_records() throws InterruptedException {
+        ControlAccountsPage controlAccountsPage= new ControlAccountsPage();
+        String query="select * from lunch_cashmove where id=(select max(id) from lunch_cashmove)";
+        List<String> abc=DBUtils.executeQueryAndGetColumnValue(query,"id");
+       String expected=abc.get(0);
+        Thread.sleep(2000);
+        String actual= controlAccountsPage.numberOfAccount.getText().substring(16);
+
+       assertEquals(actual,expected);
+
+
+    }
+
+    @Then("the account date should be the same as database records")
+    public void the_account_date_should_be_the_same_as_database_records() throws InterruptedException {
+        ControlAccountsPage controlAccountsPage= new ControlAccountsPage();
+        String query="select * from lunch_cashmove where id=(select max(id) from lunch_cashmove)";
+        List<String> abc=DBUtils.executeQueryAndGetColumnValue(query,"date");
+        String expected=abc.get(0);
+        Thread.sleep(2000);
+        String actual= controlAccountsPage.accountCreateDate.getText();
+        expected=expected.replace("-","");
+        actual=actual.replaceAll("/","");
+        String actNew = actual.substring(4)+actual.substring(0,4);
+        System.out.println(actNew);
+        System.out.println(actual);
+
+        assertEquals(actNew,expected);
+    }
+
+
+
+}
 

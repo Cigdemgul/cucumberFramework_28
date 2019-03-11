@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
         features = "src/test/resources/features",
         glue = "step_definitions",
-        tags = "@manager , @managerLunchOkError, @wip",
+        tags = "@wirr",
         dryRun = false
 
 

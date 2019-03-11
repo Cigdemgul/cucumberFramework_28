@@ -91,8 +91,14 @@ public class ControlAccountsPage {
     @FindBy(css = "tbody .o_group_has_content:nth-of-type(2) .o_list_number")
     public WebElement secondAmount;
 
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/ol/li[2]")
+    public WebElement numberOfAccount;
+
     @FindBy(css = "[title='Total']")
     public WebElement totalAmount;
+
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div[2]/div/div/div/div/div/table/tbody/tr[2]/td[2]/span")
+    public WebElement accountCreateDate;
 
     public void setCreateNewAccount(String amount, String decription){
         amount1.sendKeys(Keys.BACK_SPACE,Keys.BACK_SPACE,Keys.BACK_SPACE,Keys.BACK_SPACE);
