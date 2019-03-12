@@ -43,6 +43,9 @@ public class AlertsPage {
     @FindBy(xpath  ="/html/body/div[1]/div[2]/div[2]/div/div/div/table/tbody/tr[1]/td[2]")
      public WebElement alertMessages;
 
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div[2]/div/div/div/table/tbody/tr[1]/td[3]")
+    public WebElement recurrenceOfFirstItem;
+
 
     public boolean checkAllSelected() {
         for (int i = 1; i <= 5; i++) {

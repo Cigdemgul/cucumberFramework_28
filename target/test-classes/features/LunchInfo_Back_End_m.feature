@@ -35,3 +35,23 @@ Feature: New accounts db test
     Given I am on the lunch page as a manager
     Then I go to products page
     Then number of products should be the same as database records
+
+
+  @db
+  Scenario: name of the products
+    Given I am on the lunch page as a manager
+    Then I go to products page
+    Then name of products should be the same as database records
+
+  @db
+  Scenario: price of the products
+    Given I am on the lunch page as a manager
+    Then I go to products page
+    Then price of products should be the same as database records
+
+  @db @wirr
+  Scenario: price of the products
+    Given I am on the lunch page as a manager
+    Then I go to products page
+    Then category of products should be the same as database records
+
