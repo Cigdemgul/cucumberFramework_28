@@ -3,20 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39f6376c-a369-4fbc-b720-d61f91d92607" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/EmployeePaymentsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/EmployeePaymentsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ProductCategoriesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ProductCategoriesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/EmployeePayments_StepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/EmployeePayments_StepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/ProductCategoriesStep_Defs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/ProductCategoriesStep_Defs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/ProductsStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/ProductsStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/BrowserUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/EmployeePaymentsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/EmployeePaymentsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/ProductCategoriesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/ProductCategoriesPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/CukesRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_definitions/EmployeePayments_StepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_definitions/EmployeePayments_StepDefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_definitions/ProductCategoriesStep_Defs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_definitions/ProductCategoriesStep_Defs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_definitions/ProductsStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_definitions/ProductsStepDefinitions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/BrowserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/BrowserUtils.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,17 +53,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/ProductsStepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="15">
               <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/ProductCategoryBackEndTest.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="120">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -100,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/utilities/BrowserUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
+            <state relative-caret-position="532">
               <caret line="283" selection-start-line="283" selection-end-line="283" />
               <folding>
                 <element signature="e#4321#4322#0" expanded="true" />
@@ -226,10 +212,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="804" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="74" />
+    <option name="y" value="46" />
+    <option name="width" value="1366" />
+    <option name="height" value="767" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -307,6 +294,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumberFramework_28" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumberFramework_28" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="test_data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -317,7 +312,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552401397205" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552401566345" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -472,7 +467,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="804" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="811" extended-state="6" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -481,7 +476,7 @@
       <window_info id="Image Layers" order="4" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3244382" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32127956" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32684284" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
@@ -675,20 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/ProductsStepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/ProductCategoryBackEndTest.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/ControllingAccounts_mStepDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1740">
@@ -726,12 +707,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utilities/BrowserUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
+        <state relative-caret-position="532">
           <caret line="283" selection-start-line="283" selection-end-line="283" />
           <folding>
             <element signature="e#4321#4322#0" expanded="true" />
             <element signature="e#4370#4371#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/ProductsStepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/ProductCategoryBackEndTest.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
         </state>
       </provider>
     </entry>
