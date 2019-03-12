@@ -40,7 +40,7 @@ public class ProductsStepDefinitions {
 
         try {
             BrowserUtils.wait(3);
-        } catch (InterruptedException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
@@ -54,7 +54,7 @@ public class ProductsStepDefinitions {
         pp.clickPreviousProductsButton();
         try {
             BrowserUtils.wait(2);
-        } catch (InterruptedException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         List<WebElement> productsTable = Driver.getDriver().findElements(By.cssSelector("[class='ui-sortable'] tr"));
@@ -74,7 +74,7 @@ public class ProductsStepDefinitions {
         String initPageLimit = Driver.getDriver().findElement(By.className("o_pager_limit")).getText();
         try {
             BrowserUtils.wait(2);
-        } catch (InterruptedException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         String finalPageLimit = Driver.getDriver().findElement(By.className("o_pager_limit")).getText();
@@ -92,7 +92,7 @@ public class ProductsStepDefinitions {
     public void i_verify_it_is_reordered() {
         try {
             BrowserUtils.wait(2);
-        } catch (InterruptedException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         String newFirstItem = Driver.getDriver().findElement(By.cssSelector("tbody .o_data_row:nth-of-type(1) .o_required_modifier:nth-of-type(2)")).getText();
