@@ -39,6 +39,9 @@ public class ProductCategoriesPage {
     @FindBy(xpath = "//table[@class='o_list_view table table-condensed table-striped o_list_view_ungrouped']/tbody/tr/td[2]")
     public List<WebElement> names;
 
+    @FindBy(css = ".o_pager_limit")
+    public WebElement totalAmount;
+
     public void createNewProductCategory(String name){
         createButton.click();
         nameInputBox.sendKeys(name);
