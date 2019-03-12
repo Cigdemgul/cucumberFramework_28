@@ -5,6 +5,7 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 import pages.ControlAccountsPage;
 import pages.LunchHomePage;
+import pages.ProductsPage;
 import utilities.DBUtils;
 
 import java.text.DateFormat;
@@ -163,7 +164,19 @@ public class ControllingAccounts_mStepDefinitions {
         assertEquals(actNew,expected);
     }
 
+    @Then("number of products should be the same as database records")
+    public void number_of_products_should_be_the_same_as_database_records() throws InterruptedException {
+        ProductsPage productsPage = new ProductsPage();
+        Thread.sleep(2000);
+        int actualCountProducts=Integer.parseInt(productsPage.countOfProduct.getText());
+        String query="select count(*) from lunch_product";
+        List<String> list= DBUtils.executeQueryAndGetColumnValue(query,"count");
+        int expectedCountProduct=Integer.parseInt(list.get(0));
+        assertEquals(expectedCountProduct,actualCountProducts);
 
+        System.out.println(actualCountProducts+"  "+expectedCountProduct);
+//here is a bug, the amounts are different in UI and Database
+    }
 
 }
 

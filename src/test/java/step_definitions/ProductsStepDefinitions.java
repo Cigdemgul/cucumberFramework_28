@@ -100,4 +100,5 @@ public class ProductsStepDefinitions {
         Assert.assertNotEquals(firstItem, newFirstItem);
     }
 
+
 }

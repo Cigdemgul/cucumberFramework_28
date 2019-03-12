@@ -59,6 +59,9 @@ public class ProductsPage {
     @FindBy(xpath = "input[type=text][id='o_field_input_387']")
     public WebElement categoryButton;
 
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/div[3]/div[2]/div/span[1]/span[2]")
+    public WebElement countOfProduct;
+
     public void clickCreateButton(){
         createButton.click();
     }

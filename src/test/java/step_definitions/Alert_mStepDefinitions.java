@@ -9,7 +9,13 @@ import pages.LoginPage;
 import pages.LunchHomePage;
 import pages.MainPage;
 import utilities.ConfigurationReader;
+import utilities.DBUtils;
 import utilities.Driver;
+
+import java.sql.ResultSet;
+import java.util.List;
+
+import static org.junit.Assert.assertEquals;
 
 public class Alert_mStepDefinitions {
 
@@ -49,7 +55,7 @@ public class Alert_mStepDefinitions {
     @Then("all buttons should be selected")
     public void all_buttons_should_be_selected() {
         AlertsPage alertsPage = new AlertsPage();
-    Assert.assertEquals(alertsPage.checkAllSelected(),true);
+    assertEquals(alertsPage.checkAllSelected(),true);
     }
 
     @Then("I click on Action button")
@@ -67,6 +73,33 @@ public class Alert_mStepDefinitions {
         alertsPage.setAddField();
         alertsPage.exportToFileButton.click();
     }
+    @Then("the total number of alerts should be same as database records")
+    public void the_total_number_of_alerts_should_be_same_as_database_records() throws InterruptedException {
+       AlertsPage alertsPage = new AlertsPage();
+       Thread.sleep(2000);
+       int actual=Integer.parseInt(alertsPage.numberOfAlerts.getText());
+       String query="select * from lunch_alert";
 
+        List<String> list= DBUtils.executeQueryAndGetColumnValue(query,"id");
+
+        int expected=list.size();
+
+        assertEquals(expected,actual);
+    }
+
+
+    @Then("message {int}  should be same as database records")
+    public void message_should_be_same_as_database_records(Integer messageNumber) throws InterruptedException {
+        AlertsPage alertsPage = new AlertsPage();
+        Thread.sleep(2000);
+        String actualMessage=alertsPage.alertMessages.getText();
+
+        String query="select * from lunch_alert where id=1";
+
+        String expected=DBUtils.executeQueryAndGetColumnValue(query,"message").get(0);
+        assertEquals(expected,actualMessage);
+
+
+    }
 
 }

@@ -83,16 +83,17 @@ ControlAccountsPage controlAccountsPage = new ControlAccountsPage();
 
 
     @When("I get the price from invoice print document")
-    public void i_get_the_price_from_invoice_print_document() {
+    public void i_get_the_price_from_invoice_print_document() throws InterruptedException {
         PreviousOrdersPage previousOrdersPage = new PreviousOrdersPage();
         Driver.getDriver().switchTo().frame(previousOrdersPage.iFrame);
+        Thread.sleep(2000);
          invoiceTotalPrice=Double.parseDouble(previousOrdersPage.totalPriceOnInvoice.getText());
 
     }
 
     @Then("invoice total price and total price should be same")
-    public void invoice_total_price_and_total_price_should_be_same() {
-
+    public void invoice_total_price_and_total_price_should_be_same() throws InterruptedException {
+        Thread.sleep(2000);
         Assert.assertEquals(addedTotalPrice,invoiceTotalPrice,0.0);
     }
 
