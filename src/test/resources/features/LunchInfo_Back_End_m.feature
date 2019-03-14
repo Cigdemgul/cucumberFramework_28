@@ -20,7 +20,7 @@ Feature: New accounts db test
     Then number of accounts should be the same as database records
 
 
-  @db
+  @db @wirr
   Scenario: verify new account date
     Given I am on the lunch page as a manager
     Then I go to Control Accounts page as a manager
