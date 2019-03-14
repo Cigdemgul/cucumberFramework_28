@@ -5,6 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
+import java.util.List;
+
 public class ProductCategoriesPage {
     public ProductCategoriesPage(){
         PageFactory.initElements(Driver.getDriver(),this);
@@ -33,6 +35,12 @@ public class ProductCategoriesPage {
 
     @FindBy(css = ".modal-footer [type='button']:nth-of-type(1)")
     public WebElement deleteOK;
+
+    @FindBy(xpath = "//table[@class='o_list_view table table-condensed table-striped o_list_view_ungrouped']/tbody/tr/td[2]")
+    public List<WebElement> names;
+
+    @FindBy(css = ".o_pager_limit")
+    public WebElement totalAmount;
 
     public void createNewProductCategory(String name){
         createButton.click();

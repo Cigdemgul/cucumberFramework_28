@@ -98,7 +98,7 @@ public class EmployeePaymentsPage {
 
     public void deleteIndivItem(){
         indivAction.click();
-        BrowserUtils.waitForClickability(indivDelete,5).click();
-        BrowserUtils.waitForClickability(okForDelete, 5).click();
+        BrowserUtils.waitForClickablility(indivDelete,5).click();
+        BrowserUtils.waitForClickablility(okForDelete, 5).click();
     }
 }

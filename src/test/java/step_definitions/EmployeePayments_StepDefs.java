@@ -36,7 +36,7 @@ public class EmployeePayments_StepDefs {
     public void i_verify_a_new_cash_move_has_been_created() {
         try {
             BrowserUtils.wait(2);
-        } catch (InterruptedException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         String finalNameAtTop = Driver.getDriver().findElement(By.cssSelector(".active:nth-child(2)")).getText();
@@ -60,7 +60,7 @@ public class EmployeePayments_StepDefs {
         employeePaymentsPage.deleteIndivItem();
         try {
             BrowserUtils.wait(2);
-        } catch (InterruptedException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
 

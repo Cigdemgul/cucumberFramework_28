@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
         features = "src/test/resources/features",
         glue = "step_definitions",
-        tags = "@wirr",
+        tags = "@BRIT-4485",
         dryRun = false
 
 
