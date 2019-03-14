@@ -5,6 +5,8 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 import pages.ControlAccountsPage;
 import pages.LunchHomePage;
+import pages.ProductsPage;
+import utilities.BrowserUtils;
 import utilities.DBUtils;
 
 import java.text.DateFormat;
@@ -48,7 +50,7 @@ public class ControllingAccounts_mStepDefinitions {
         ControlAccountsPage controlAccountsPage = new ControlAccountsPage();
         a=controlAccountsPage.findAddedAccount();
         controlAccountsPage.getUsers.click();
-        Thread.sleep(2000);
+        BrowserUtils.wait(2);
         controlAccountsPage.selectingUser();
         controlAccountsPage.selectingDate();
         controlAccountsPage.setCreateNewAccount("46.00", "New account opened");
@@ -60,7 +62,7 @@ public class ControllingAccounts_mStepDefinitions {
     public void i_enter_information_of_new_account() throws InterruptedException {
         ControlAccountsPage controlAccountsPage = new ControlAccountsPage();
         controlAccountsPage.getUsers.click();
-        Thread.sleep(2000);
+        BrowserUtils.wait(2);
         controlAccountsPage.selectingUser();
         controlAccountsPage.selectingDate();
         controlAccountsPage.setCreateNewAccount("46.00", "New account opened");
@@ -77,7 +79,7 @@ public class ControllingAccounts_mStepDefinitions {
     @Then("the amounts should be the same")
     public void the_amounts_should_be_the_same() throws InterruptedException {
         ControlAccountsPage controlAccountsPage = new ControlAccountsPage();
-        Thread.sleep(2000);
+        BrowserUtils.wait(2);
         assertEquals("46.00", controlAccountsPage.amount1.getText());
 
     }
@@ -119,7 +121,7 @@ public class ControllingAccounts_mStepDefinitions {
     public void the_amount_should_be_the_same_as_database_records() throws InterruptedException {
         ControlAccountsPage controlAccountsPage= new ControlAccountsPage();
         String sql ="select amount from lunch_cashmove where id=(select max(id) from lunch_cashmove)";
-        Thread.sleep(2000);
+        BrowserUtils.wait(2);
         System.out.println(controlAccountsPage.amount1.getText());
         List<String> abc=DBUtils.executeQueryAndGetColumnValue(sql,"amount");
         //System.out.println("value:"+Double.parseDouble(abc.get(0)));
@@ -138,7 +140,7 @@ public class ControllingAccounts_mStepDefinitions {
         String query="select * from lunch_cashmove where id=(select max(id) from lunch_cashmove)";
         List<String> abc=DBUtils.executeQueryAndGetColumnValue(query,"id");
        String expected=abc.get(0);
-        Thread.sleep(2000);
+        BrowserUtils.wait(2);
         String actual= controlAccountsPage.numberOfAccount.getText().substring(16);
 
        assertEquals(actual,expected);
@@ -152,7 +154,7 @@ public class ControllingAccounts_mStepDefinitions {
         String query="select * from lunch_cashmove where id=(select max(id) from lunch_cashmove)";
         List<String> abc=DBUtils.executeQueryAndGetColumnValue(query,"date");
         String expected=abc.get(0);
-        Thread.sleep(2000);
+        BrowserUtils.wait(2);
         String actual= controlAccountsPage.accountCreateDate.getText();
         expected=expected.replace("-","");
         actual=actual.replaceAll("/","");
@@ -163,7 +165,19 @@ public class ControllingAccounts_mStepDefinitions {
         assertEquals(actNew,expected);
     }
 
+    @Then("number of products should be the same as database records")
+    public void number_of_products_should_be_the_same_as_database_records() throws InterruptedException {
+        ProductsPage productsPage = new ProductsPage();
+        BrowserUtils.wait(2);
+        int actualCountProducts=Integer.parseInt(productsPage.countOfProduct.getText());
+        String query="select count(*) from lunch_product";
+        List<String> list= DBUtils.executeQueryAndGetColumnValue(query,"count");
+        int expectedCountProduct=Integer.parseInt(list.get(0));
+        assertEquals(expectedCountProduct,actualCountProducts);
 
+        System.out.println(actualCountProducts+"  "+expectedCountProduct);
+//here is a bug, the amounts are different in UI and Database
+    }
 
 }
 

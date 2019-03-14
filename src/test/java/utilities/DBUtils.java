@@ -59,6 +59,8 @@ public class DBUtils {
             }
         }
 
+
+
         public static int getRowCount() {
             int amountOfRows = 0;
             try {

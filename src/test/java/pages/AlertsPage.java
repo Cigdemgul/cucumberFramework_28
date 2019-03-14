@@ -2,6 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
@@ -34,6 +35,17 @@ public class AlertsPage {
 
     @FindBy(css = ".modal-footer [type='button']:nth-of-type(2) span")
     public WebElement closeButton;
+
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/div[3]/div[2]/div/span[1]/span[2]")
+    public WebElement numberOfAlerts;
+
+
+    @FindBy(xpath  ="/html/body/div[1]/div[2]/div[2]/div/div/div/table/tbody/tr[1]/td[2]")
+     public WebElement alertMessages;
+
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div[2]/div/div/div/table/tbody/tr[1]/td[3]")
+    public WebElement recurrenceOfFirstItem;
+
 
     public boolean checkAllSelected() {
         for (int i = 1; i <= 5; i++) {

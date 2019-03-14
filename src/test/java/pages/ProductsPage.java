@@ -59,6 +59,18 @@ public class ProductsPage {
     @FindBy(xpath = "input[type=text][id='o_field_input_387']")
     public WebElement categoryButton;
 
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/div[3]/div[2]/div/span[1]/span[2]")
+    public WebElement countOfProduct;
+
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div[2]/div/div/div/table/tbody/tr[1]/td[2] ")
+    public WebElement firstProduct;
+
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div[2]/div/div/div/table/tbody/tr[1]/td[6]")
+    public WebElement firstProductPrice;
+
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div[2]/div/div/div/table/tbody/tr[1]/td[3]")
+    public WebElement firstProductCategory;
+
     public void clickCreateButton(){
         createButton.click();
     }
