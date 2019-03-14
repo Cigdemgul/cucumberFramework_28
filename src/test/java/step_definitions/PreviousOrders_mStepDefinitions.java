@@ -2,7 +2,6 @@ package step_definitions;
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import io.cucumber.datatable.dependency.com.fasterxml.jackson.annotation.JsonTypeInfo;
 import org.junit.Assert;
 import pages.ControlAccountsPage;
 import pages.LunchHomePage;

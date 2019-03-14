@@ -7,7 +7,6 @@ import pages.LoginPage;
 import pages.LunchHomePage;
 import pages.MainPage;
 import pages.OrdersByVendorPage;
-import utilities.ConfigurationReader;
 import utilities.Driver;
 
 import static org.junit.Assert.*;

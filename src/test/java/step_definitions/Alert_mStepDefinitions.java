@@ -3,14 +3,12 @@ package step_definitions;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.junit.Assert;
 import pages.*;
 import utilities.BrowserUtils;
 import utilities.ConfigurationReader;
 import utilities.DBUtils;
 import utilities.Driver;
 
-import java.sql.ResultSet;
 import java.util.List;
 import java.util.Map;
 

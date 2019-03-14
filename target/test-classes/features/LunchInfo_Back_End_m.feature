@@ -20,7 +20,7 @@ Feature: New accounts db test
     Then number of accounts should be the same as database records
 
 
-  @db @wirr
+  @db
   Scenario: verify new account date
     Given I am on the lunch page as a manager
     Then I go to Control Accounts page as a manager
@@ -37,13 +37,13 @@ Feature: New accounts db test
     Then number of products should be the same as database records
 
 
-  @db @BRIT-4485
+  @db
   Scenario: name of the products
     Given I am on the lunch page as a manager
     Then I go to products page
     Then name of products should be the same as database records
 
-  @db
+  @db @wirr
   Scenario: price of the products
     Given I am on the lunch page as a manager
     Then I go to products page

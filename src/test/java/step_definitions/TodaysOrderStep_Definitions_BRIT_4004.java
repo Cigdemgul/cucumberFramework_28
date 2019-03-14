@@ -5,7 +5,7 @@ import cucumber.api.java.en.When;
 import pages.LunchHomePage;
 import utilities.Driver;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class TodaysOrderStep_Definitions_BRIT_4004 {
     LunchHomePage lunchHomePage = new LunchHomePage();
