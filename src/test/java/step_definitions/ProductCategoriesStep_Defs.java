@@ -30,7 +30,7 @@ public class ProductCategoriesStep_Defs {
         pcp.clickSave();
         try {
             BrowserUtils.wait(2);
-        } catch (InterruptedException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         String finalName = Driver.getDriver().findElement(By.cssSelector(".breadcrumb > .active")).getText();
